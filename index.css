@@ -1,0 +1,135 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 40em;   
+    height: 20em;
+    padding:1.5%;
+    border-radius: 5px;
+    box-shadow: .2vw .2vh 1vw 1vh gray;
+    background-color: rgb(35, 82, 46);
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 1vw;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+#name{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1vw;
+}
+#logoHead{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1vw;
+}
+#frontPage{
+    width: 40em;
+    padding: 1.5%;
+    border-radius: 5px;
+    box-shadow: .2vw .2vh 1vw 1vh gray;
+    font-size: 1vw;
+    margin: 0 auto;
+    margin-bottom: 2.6%;
+
+}
+#supervised{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1vw;
+}
+#university{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1vw;
+}
+#content{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0 auto;
+    margin-bottom: 2.6%;
+    width: 40em;
+    padding:1.5%;
+    border-radius: 5px;
+    box-shadow: .2vw .2vh 1vw 1vh gray;
+    font-size: 1vw;
+}
+#reg{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1vw;
+}
+#image{
+    width: 15vw;
+    height:13em;
+}
+#logo{
+    width: 10vw;
+    height:10em;
+}
+#nameReg{
+    align-items: center;
+    text-align:center;
+    color: white;
+    font-size: 1.6em;
+}
+#detail #detail_page1 ol li{
+    font-weight: bold;
+    /* margin-left: 2.6%; */
+}
+#detail #detail_page1 ol p{
+    width: 80%;
+    height: 100%;
+    /* margin-left: 1.5%; */
+}
+#detail{
+    margin-top: 3%;
+}
+#detail_page1{
+    display: flex;
+    margin:0 auto;
+    width: 40em;
+    height: 70%;
+    padding:1.5%;
+    border-radius: 5px;
+    box-shadow: .2vw .2vh 1vw 1vh gray;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    font-size: 1vw;
+}
+#detail #detail_page2 ol li{
+    font-weight: bold;
+    /* margin-left: 1.5%; */
+    font-size: 1vw;
+}
+#detail #detail_page2 ol p{
+    width: 80%;
+    height: 100%;
+    /* margin-left: 1.5%; */
+    font-size: 1vw;
+}
+#detail_page2{
+    display: block;
+    margin:0 auto;
+    width: 40em;
+    height: 70%;
+    padding:1.5%;
+    border-radius: 5px;
+    box-shadow: .2vw .2vh 1vw 1vh gray;
+    font-size: 1vw;
+    margin-bottom: 3%;
+}

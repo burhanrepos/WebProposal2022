@@ -21,6 +21,14 @@
             </div>
 
         </div>
+        <div class="assignment">
+        <h2>Assignments</h2>
+        <button type="button" class="collapsible">JS Functions: 9-6 :  Example: Game of Chance</button>
+        <div class="content">
+        <p>Craps is a dice game in which players bet on the outcomes of a pair of dice. Players can wager money against each other (playing "street craps") or against a bank ("casino craps"). Because it requires little equipment, "street craps" can be played in informal settings. While shooting craps, players may use slang terminology to place bets and actions.</p>
+        <p   id="rollButton" ><a href="https://burhanrepos.github.io/craps/" style="text-decoration: none;color:white">Link to Assignment Web Page</a></p]>
+        </div>
+        </div>
         <div id="frontPage">
             <div id="logoHead">
                 <h2 style="text-decoration: underline;">Multi-Tasker</h2>
@@ -62,6 +70,8 @@
             <li>Brief Feasibility Study</li>
             <li>Solution Application Areas</li>
             <li>Tools/Technology</li>
+            <li>Expertise of the Team Members</li>
+            <li>Milestones</li>
             <li>References</li>
         </ol>
     </div>
@@ -141,7 +151,22 @@
     </div>
     <!-- Detail Page end -->
 
-
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
     <!-- Proposal Page end -->
 </body>
 </html>
